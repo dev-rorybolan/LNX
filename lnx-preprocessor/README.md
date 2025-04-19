@@ -23,7 +23,7 @@ This extension adds syntax highlighting and build task support for `.lnx` files 
 
 ## 📦 Installation
 
-1. **Download the `.vsix` file** from the [Releases](#) or build it manually with `vsce package`.
+1. **Download the `.vsix` file** from the lnx folder or build it manually with `vsce package`.
 2. Open **Visual Studio Code**.
 3. Hit `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and select:  
    `Extensions: Install from VSIX...`
