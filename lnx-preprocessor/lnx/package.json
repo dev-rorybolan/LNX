@@ -1,0 +1,29 @@
+{
+  "name": "lnx",
+  "displayName": "lnx",
+  "description": "Custom syntax highlighting for .lnx files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.2"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "lnx",
+      "aliases": ["LNX", "lnx"],
+      "extensions": [".lnx"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "lnx",
+      "scopeName": "source.lnx",
+      "path": "./syntaxes/lnx.tmLanguage.json"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/lnx-extension"
+  }
+}

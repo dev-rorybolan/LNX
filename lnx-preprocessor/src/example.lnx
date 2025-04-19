@@ -1,0 +1,53 @@
+// Welcome to LNX! This demo shows off the syntax.
+
+function greet(name: String) { // function replaces fun
+    print("Hello, " + name + "!") // print replaces println
+}
+
+function factorial(n: Int): Int { // function replaces fun
+    return runIf (n <= 1) { // runIf replaces if
+        1
+    } runIfNot { // runIfNot replaces else
+        n * factorial(n - 1)
+    }
+}
+
+class Calculator { // objectBlueprint replaces class
+    permanent version = "1.0" // permanent replaces val
+    mutable memory = 0 // mutable replaces var
+
+    function add(x: Int, y: Int): Int { // function replaces fun
+        return x + y
+    }
+
+    function store(value: Int) { // function replaces fun
+        memory = value
+    }
+
+    function recall(): Int { // function replaces fun
+        return memory
+    }
+}
+
+function main() { // function replaces fun
+    greet("Rory") 
+
+    mutable result = factorial(5) // mutable replaces var
+    print("Factorial of 5 is " + result)
+
+    permanent calc = Calculator() // permanent replaces val
+    print("Calculator version: " + calc.version)
+
+    mutable sum = calc.add(10, 20) // mutable replaces var
+    calc.store(sum)
+    print("Stored in memory: " + calc.recall())
+
+    loopFor (i in 1..3) { // loopFor replaces for
+        print("Loop count: " + i)
+    }
+
+    loopWhile (result > 1) { // loopWhile replaces while
+        result = result - 1
+        print("Countdown: " + result)
+    }
+}

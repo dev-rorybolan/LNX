@@ -1,0 +1,58 @@
+{
+	"fileTypes": ["lnx"],
+	"scopeName": "source.lnx",
+	"patterns": [
+	  {
+		"name": "comment.line.double-slash.lnx",
+		"match": "//.*$"
+	  },
+	  {
+		"name": "comment.block.lnx",
+		"begin": "/\\*",
+		"end": "\\*/"
+	  },
+	  {
+		"name": "keyword.control.lnx",
+		"match": "\\b(function|objectBlueprint)\\b"
+	  },
+	  {
+		"name": "keyword.declaration.lnx",
+		"match": "\\b(permanent|mutable)\\b"
+	  },
+	  {
+		"name": "keyword.operator.lnx",
+		"match": "\\b(runIf|runIfNot|loopFor|loopWhile)\\b"
+	  },
+	  {
+		"name": "constant.language.boolean.lnx",
+		"match": "\\b(true|false)\\b"
+	  },
+	  {
+		"name": "constant.numeric.integer.lnx",
+		"match": "\\b\\d+\\b"
+	  },
+	  {
+		"name": "string.quoted.double.lnx",
+		"match": "\"([^\"]*)\""
+	  },
+	  {
+		"name": "variable.other.lnx",
+		"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+	  }
+	],
+	"repository": {
+	  "keywords": {
+		"patterns": [
+		  {
+			"name": "keyword.control.lnx",
+			"match": "\\b(function|objectBlueprint)\\b"
+		  },
+		  {
+			"name": "keyword.declaration.lnx",
+			"match": "\\b(permanent|mutable)\\b"
+		  }
+		]
+	  }
+	}
+  }
+  
