@@ -12,7 +12,7 @@ function factorial(n: Int): Int { // function replaces fun
     }
 }
 
-class Calculator { // objectBlueprint replaces class
+objectBlueprint Calculator { // objectBlueprint replaces class
     permanent version = "1.0" // permanent replaces val
     mutable memory = 0 // mutable replaces var
 
