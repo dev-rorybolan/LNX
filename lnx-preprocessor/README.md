@@ -29,7 +29,10 @@ This extension adds syntax highlighting and build task support for `.lnx` files 
    `Extensions: Install from VSIX...`
 4. Choose the `.vsix` file and install.
 5. Restart VSCode if needed.
-
+6. Hit `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) and select:  
+   `Tasks: Configure Task: Create tasks.json from template: Others`
+7. Copy the code from the tasks.json in this repository.
+   
 You’re good to go! `.lnx` files will now have full highlighting and run support.
 
 ---
