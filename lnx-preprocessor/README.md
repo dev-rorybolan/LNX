@@ -64,8 +64,9 @@ You’re good to go! `.lnx` files will now have full highlighting and run suppor
   - Your `.lnx` scripts and `preprocessor.jar`
 - `lnx/`
   - VSCode syntax highlighting files (`tmLanguage.json`, `language-configuration.json`)
-- `.vscode/`
-  - Contains `tasks.json` to support the build shortcut
+
+- `tasks.json`
+    to support the build shortcut
 
 ---
 
