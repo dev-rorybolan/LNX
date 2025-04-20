@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run preprocessor",
+        "type": "shell",
+        "command": "java",
+        "args": [
+          "-jar",
+          "${workspaceFolder}/src/preprocessor.jar", // Adjust to correct path if necessary
+          "${file}"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Runs the preprocessor on the current .lnx file"
+      }
+    ]
+  }
+  
