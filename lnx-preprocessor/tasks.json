@@ -7,7 +7,7 @@
         "command": "java",
         "args": [
           "-jar",
-          "${workspaceFolder}/src/preprocessor.jar", // Adjust to correct path if necessary
+          "${workspaceFolder}/src/preprocessor.jar", 
           "${file}"
         ],
         "group": {
